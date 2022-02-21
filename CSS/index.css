@@ -19,11 +19,22 @@ body {
     background-position: center;
 }
 
+#btnbox {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #ron {
-    width: 20vw
+    background-color: rgba(255, 255, 255, 0.342);
+    height: 75px;
+    align-self: flex-end;
+    border-radius: 50px;
 }
 
 #btn {
+    height: 10vh;
     font-size: large;
     transition-duration: 0.2s;
     border-radius: 8px;
