@@ -19,6 +19,10 @@ body {
     background-position: center;
 }
 
+#ron {
+    width: 20vw
+}
+
 #btn {
     font-size: large;
     transition-duration: 0.2s;
