@@ -1,7 +1,11 @@
+/*-----ALL-----*/
+
 * {
     box-sizing: border-box;
     font-family: 'Redressed', cursive;
 }
+
+/*-----BODY-----*/
 
 body {
     height: 100vh;
@@ -9,4 +13,24 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    background-image: url(/imgandgifs/fondo1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#btn {
+    font-size: large;
+    transition-duration: 0.2s;
+    border-radius: 8px;
+    padding: 1vw 12vh;
+    background-color: rgba(117, 38, 38, 0.76);
+    color: white;
+}
+
+#btn:hover {
+    background-image: url(/imgandgifs/ronpixel.png);
+    background-color: rgb(165, 42, 42);
+    border-radius: 8px;
+    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
