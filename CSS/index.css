@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Redressed', cursive;
+    font-size: 50px;
 }
 
 /*-----BODY-----*/
@@ -13,7 +14,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-image: url(/imgAndGifs/fondo1.gif);
+    background-image: url(/TheScurvyGame/imgAndGifs/fondo1.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -35,10 +36,10 @@ body {
 
 #btn {
     height: 10vh;
-    font-size: large;
+    font-size: 30px;
     transition-duration: 0.2s;
     border-radius: 8px;
-    padding: 1vw 12vh;
+    padding: 10px 70px;
     background-color: rgba(117, 38, 38, 0.76);
     color: white;
 }
