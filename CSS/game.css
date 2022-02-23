@@ -1,3 +1,17 @@
-* {
-    box-sizing: border-box;
+body {
+    background-image: url(/imgAndGifs/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
+
+#topbox{
+    display: flex;
+    justify-content: center;
+}
+
+#limon{
+    position: fixed;
+    height: 15vh;
+    width: 10vw;
