@@ -25,7 +25,6 @@
 
 .limon{
     margin-top: 15px;
-    display: flex;
     height: 100px;   
 }
 
@@ -43,10 +42,10 @@
     background-color: rgb(6, 78, 185);
     margin: 2%;
     border-radius: 8px;
-    opacity: 0.5;
     border-style:solid;
-    
-    
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
 }
 
 #box2{
@@ -55,6 +54,14 @@
     background-color: rgb(6, 78, 185);
     margin: 2%;
     border-radius: 8px;
-    opacity: 0.5;
     border-style:solid;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxbni{
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
 }
