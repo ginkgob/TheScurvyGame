@@ -43,7 +43,7 @@ body {
     border-radius: 500px;
 }
 
-#pergamino {
+#paper {
     padding: 10px;
 }
 
@@ -84,7 +84,6 @@ body {
 }
 
 .popup {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     width: 100%;
     max-width: 300px;
