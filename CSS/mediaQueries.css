@@ -1,9 +1,11 @@
 @media screen and (min-width: 768px) {
-    #ron {
-        display: flex;
-        align-self: center;
-        background-color: rgba(10, 4, 0, 0.123);
-        height: 75px;
-        border-radius: 50px;
+
+    #imgbox {
+        justify-content: center;
     }
+
+    #title{
+        font-size: 100px;
+    }
+
 }

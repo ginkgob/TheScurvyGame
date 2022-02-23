@@ -31,12 +31,17 @@ body {
     align-items: center;
 }
 
-#ron {
+#imgbox {
     display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+.ronpaper {
     background-color: rgba(10, 4, 0, 0.123);
     height: 75px;
-    align-self: flex-end;
     border-radius: 50px;
+    margin: 5px;
 }
 
 #btn {
