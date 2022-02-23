@@ -1,4 +1,5 @@
 /*--POPUP RON--*/
+
 const button = document.querySelector('#ron');
 const popup = document.querySelector('.popup-wrapper');
  
@@ -22,3 +23,5 @@ popup.addEventListener('click', e => {
         popup.style.display = 'none';
     }
 });
+
+

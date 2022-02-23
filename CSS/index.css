@@ -50,7 +50,7 @@ body {
     box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-/*---BOTON POPUP BOTELLA---*/
+/*----BOTON POPUP BOTELLA----*/
 
 
 button:hover {
@@ -73,7 +73,7 @@ button:hover {
     text-align: center;
     width: 100%;
     max-width: 300px;
-    background: white;
+    background: rgb(243, 241, 241);
     margin: 10% auto;
     padding: 20px;
     position: relative;
@@ -100,4 +100,10 @@ button:hover {
     right: 15px;
     cursor: pointer;
     font-size: 1.5rem;
+}
+
+/*----MEDIA-QUERIES----*/
+
+@media screen and (min-width: 360px) {
+    
 }
