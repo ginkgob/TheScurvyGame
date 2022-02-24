@@ -37,7 +37,7 @@ body {
     align-self: flex-end;
 }
 
-.ronpaper {
+.bottombuttons {
     background-color: rgba(10, 4, 0, 0.123);
     height: 75px;
     border-radius: 500px;
@@ -89,26 +89,41 @@ body {
     max-width: 300px;
     background: white;
     margin: 10% auto;
-    padding: 20px;
+    padding: 15px;
     position: relative;
 }
 
-.popup a {
-    background: salmon;
-    color: white;
-    text-decoration: none;
-    padding: 6px 10px;
-    margin: 30px auto;
-    display: block;
-    width: 50%;
-}
-
-.popup a:hover {
-    background: palevioletred;
-    transition: all 0.2s;
-}
-
 .popup-close {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+/*-----POPUP HISTORY-----*/
+
+.parent {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.child {
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    background: white;
+    margin: 10% auto;
+    padding: 15px;
+    position: relative;
+}
+
+.close {
     position: absolute;
     top: 5px;
     right: 15px;
