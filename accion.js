@@ -28,12 +28,11 @@ popup.addEventListener('click', e => {
 
 const paperbutton = document.querySelector('#paper');
 const child = document.querySelector('.parent');
+const closing = document.querySelector('.close');
 
 paperbutton.addEventListener('click', () => {
     child.style.display = 'block';
 });
-
-const closing = document.querySelector('.close');
 
 paperbutton.addEventListener('click', () => {
     child.style.display = 'block';
@@ -41,4 +40,11 @@ paperbutton.addEventListener('click', () => {
 
 closing.addEventListener('click', () => {
     child.style.display = 'none';
+});
+
+popup.addEventListener('click', e => {
+    // console.log(e);
+    if(e.target.className === 'popup-wrapper') {
+        popup.style.display = 'none';
+    }
 });
