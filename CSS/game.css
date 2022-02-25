@@ -6,7 +6,7 @@
 }
 
 #topbox{
-    background-image: url(./imgAndGifs/fondo2.jpg);
+    background-image: url(../imgAndGifs/fondo2.jpg);
     height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
