@@ -2,11 +2,6 @@
 
 const ronbutton = document.querySelector('#ron');
 const popup = document.querySelector('.popup-wrapper');
-
-ronbutton.addEventListener('click', () => {
-    popup.style.display = 'block';
-});
-
 const close = document.querySelector('.popup-close');
 
 ronbutton.addEventListener('click', () => {
@@ -28,11 +23,6 @@ popup.addEventListener('click', e => {
 
 const paperbutton = document.querySelector('#paper');
 const child = document.querySelector('.parent');
-
-paperbutton.addEventListener('click', () => {
-    child.style.display = 'block';
-});
-
 const closing = document.querySelector('.close');
 
 paperbutton.addEventListener('click', () => {
@@ -41,4 +31,11 @@ paperbutton.addEventListener('click', () => {
 
 closing.addEventListener('click', () => {
     child.style.display = 'none';
+});
+
+child.addEventListener('click', e => {
+    // console.log(e);
+    if(e.target.className === 'parent') {
+        child.style.display = 'none';
+    }
 });

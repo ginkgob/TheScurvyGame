@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-image: url(/imgAndGifs/fondo1.gif);
+    background-image: url(../imgAndGifs/fondo1.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -92,6 +92,7 @@ body {
 }
 
 .popup {
+    font-size: 20px;
     text-align: center;
     width: 100%;
     max-width: 300px;
@@ -99,21 +100,6 @@ body {
     margin: 10% auto;
     padding: 20px;
     position: relative;
-}
-
-.popup a {
-    background: salmon;
-    color: white;
-    text-decoration: none;
-    padding: 6px 10px;
-    margin: 30px auto;
-    display: block;
-    width: 50%;
-}
-
-.popup a:hover {
-    background: palevioletred;
-    transition: all 0.2s;
 }
 
 .popup-close {
@@ -137,6 +123,7 @@ body {
 }
 
 .child {
+    font-size: 20px;
     text-align: center;
     width: 100%;
     max-width: 300px;
