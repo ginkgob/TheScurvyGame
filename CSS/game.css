@@ -1,4 +1,11 @@
 
+
+
+
+
+
+
+
 #topbox{
     background-image: url(/imgAndGifs/fondo2.jpg);
     height: 60vh;
@@ -8,9 +15,6 @@
     display: flex;
     justify-content:space-evenly;
 }
-
-
-
 
 .h1{
     display: flex;
