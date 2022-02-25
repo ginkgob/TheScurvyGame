@@ -21,21 +21,17 @@
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content:space-evenly;
 }
 
 
 
 
 .h1{
-    display: flex;
-    box-sizing: border-box;
     font-family: 'Redressed', cursive;
-    font-size: xx-large;
+    font-size:xx-large;
 }
 
 .limon{
-    margin-top: px;
     height: 100px;   
 }
 
