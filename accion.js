@@ -31,3 +31,6 @@ paper.addEventListener('click',() => {
 closing.addEventListener('click',() => {
     child.style.display = 'none';
 });
+
+
+//PRUEBAPRUEBAPRUEBAPRUEBA
