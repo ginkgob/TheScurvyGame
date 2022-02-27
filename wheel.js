@@ -1,9 +1,10 @@
 //-----WHEEL OF DOOM-----
 
 let players = ['Abde', 'Adrian', 'Albert', 'Ales', 'Alex', 'Daniel', 'Guillermo', 'Ingryd', 'Jess', 'Liviu', 'Lucas', 'Scarlet', 'Sergi', 'Uri', 'Yeray'];
-let lemonclick = document.querySelector('.limon')
+let lemonclick = document.querySelector('.limon');
 let avatar = document.querySelector('.avatar');
 //let prueba = ['Armando', 'Rocio', 'Hector']
+
 //console.log(players.length);
 
 function randomPlayer (name) {

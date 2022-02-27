@@ -25,6 +25,7 @@
 }
 
 .avatar {
+    align-self: center;
     height: 100px;
     width: 100px;
     display: none;
