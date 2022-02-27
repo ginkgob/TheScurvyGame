@@ -40,15 +40,4 @@ child.addEventListener('click', e => {
     }
 });
 
-//-----WHEEL OF DOOM-----
 
-let players = ['Abde', 'Adrian', 'Albert', 'Ales', 'Alex', 'Daniel', 'Guillermo', 'Ingryd', 'Jess', 'Liviu', 'Lucas', 'Scarlet', 'Sergi', 'Uri', 'Yeray'];
-//console.log(players.length);
-
-function randomPlayer (names) {
-    let randomPlayer = names[Math.floor(Math.random()*players.length)];
-    return randomPlayer;
-};
-
-let deadPlayer = randomPlayer(players);
-//console.log(deadPlayer);
