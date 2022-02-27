@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-image: url(/imgAndGifs/fondo1.gif);
+    background-image: url(../imgAndGifs/fondo1.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -55,6 +55,14 @@ body {
     border-radius: 8px;
 }
 
+#ron {
+    display: flex;
+    background-color: rgba(10, 4, 0, 0.123);
+    height: 75px;
+    align-self: flex-end;
+    border-radius: 50px;
+}
+
 #btn {
     height: 10vh;
     font-size: 30px;
@@ -71,7 +79,7 @@ body {
     box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-/*-----POPUP BOTTLE BUTTON-----*/
+/*---BOTON POPUP BOTELLA---*/
 
 .popup-wrapper {
     background: rgba(0, 0, 0, 0.5);
@@ -84,12 +92,13 @@ body {
 }
 
 .popup {
+    font-size: 20px;
     text-align: center;
     width: 100%;
     max-width: 300px;
     background: white;
     margin: 10% auto;
-    padding: 15px;
+    padding: 20px;
     position: relative;
 }
 
@@ -114,6 +123,7 @@ body {
 }
 
 .child {
+    font-size: 20px;
     text-align: center;
     width: 100%;
     max-width: 300px;

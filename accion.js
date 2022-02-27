@@ -21,16 +21,21 @@ popup.addEventListener('click', e => {
 
 ///-----POPUP HISTORY-----
 
-let paper = document.querySelector('#paper');
-let closing = document.querySelector('.close');
+const paperbutton = document.querySelector('#paper');
+const child = document.querySelector('.parent');
+const closing = document.querySelector('.close');
 
-paper.addEventListener('click',() => {
+paperbutton.addEventListener('click', () => {
     child.style.display = 'block';
 });
 
-closing.addEventListener('click',() => {
+closing.addEventListener('click', () => {
     child.style.display = 'none';
 });
 
-
-//PRUEBAPRUEBAPRUEBAPRUEBA
+child.addEventListener('click', e => {
+    // console.log(e);
+    if(e.target.className === 'parent') {
+        child.style.display = 'none';
+    }
+});
