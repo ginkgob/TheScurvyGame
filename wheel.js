@@ -1,6 +1,6 @@
 //-----WHEEL OF DOOM-----
 
-let players = ['Abde', 'Adrian', 'Albert', 'Ales', 'Alex', 'Daniel', 'Guillermo', 'Ingryd', 'Jess', 'Liviu', 'Lucas', 'Scarlet', 'Sergi', 'Uri', 'Yeray'];
+let players = ['Abde', 'Adrian', 'Albert', 'Ales', 'Alex', 'Daniel', 'Guillermo', 'Ingryd', 'Jess', 'Liviu', 'Lucas', 'Scarlet', 'Sergi', 'Uri', 'Miguel'];
 
 let abde = document.querySelector('#abde');
 let adrian = document.querySelector('#adrian');
@@ -16,14 +16,25 @@ let lucas = document.querySelector('#lucas');
 let scarlet = document.querySelector('#scarlet');
 let sergi = document.querySelector('#sergi');
 let uri = document.querySelector('#uri');
-let yeray = document.querySelector('#yeray'); 
+let miguel = document.querySelector('#miguel'); 
+
+let removed = players.splice();
 
 //console.log(players.length);
+console.log(players);
+
+/* for(var i = array.length-1;i>=0;i--){
+    array.splice(Math.floor(Math.random()*array.length), 1);
+    console.log(array);
+}*/
 
 function randomPlayer (name) {
     let randomPlayer = name[Math.floor(Math.random()*name.length)];
+    for(let i= players.length-1;i>=0;i--) {
+        players.splice(randomPlayer, 1)
+    };
         if (randomPlayer === 'Abde') {
-            abde.style.display = 'block';
+            abde.style.display = 'block' //&& players.splice(name, 1);
         } else if (randomPlayer === 'Adrian') {
             adrian.style.display = 'block';
         } else if (randomPlayer === 'Albert') {
@@ -50,8 +61,8 @@ function randomPlayer (name) {
             sergi.style.display = 'block';
         } else if (randomPlayer === 'Uri') {
             uri.style.display = 'block';
-        } else if (randomPlayer === 'Yeray') {
-            yeray.style.display = 'block';
+        } else if (randomPlayer === 'Miguel') {
+            miguel.style.display = 'block';
         };
     return randomPlayer;
 };
@@ -61,3 +72,4 @@ console.log('Ha muerto: ' + deadPlayer);
 
 /* let pruebafuncion = randomPlayer(prueba);
 console.log(pruebafuncion); */
+
