@@ -33,6 +33,8 @@ function randomPlayer (name) {
             ales.style.display = 'block';
         } else if (randomPlayer === 'Alex') {
             alex.style.display = 'block';
+        } else if (randomPlayer === 'Damaris') {
+            damaris.style.display = 'block'
         } else if (randomPlayer === 'Daniel') {
             daniel.style.display = 'block';
         } else if (randomPlayer === 'Guillermo') {
