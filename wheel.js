@@ -18,23 +18,12 @@ let sergi = document.querySelector('#sergi');
 let uri = document.querySelector('#uri');
 let miguel = document.querySelector('#miguel'); 
 
-let removed = players.splice();
-
 //console.log(players.length);
-console.log(players);
-
-/* for(var i = array.length-1;i>=0;i--){
-    array.splice(Math.floor(Math.random()*array.length), 1);
-    console.log(array);
-}*/
 
 function randomPlayer (name) {
     let randomPlayer = name[Math.floor(Math.random()*name.length)];
-    for(let i= players.length-1;i>=0;i--) {
-        players.splice(randomPlayer, 1)
-    };
         if (randomPlayer === 'Abde') {
-            abde.style.display = 'block' //&& players.splice(name, 1);
+            abde.style.display = 'block'
         } else if (randomPlayer === 'Adrian') {
             adrian.style.display = 'block';
         } else if (randomPlayer === 'Albert') {
@@ -68,6 +57,9 @@ function randomPlayer (name) {
 };
 
 let deadPlayer = randomPlayer(players);
+
+console.log(players);
+console.log(players.length);
 console.log('Ha muerto: ' + deadPlayer);
 
 /* let pruebafuncion = randomPlayer(prueba);
