@@ -1,9 +1,10 @@
-
+/*-----ALL-----*/
 
 *{
     padding: 0%;
     margin: 0%;
 }
+
 
 #topbox{
     display: flex;
@@ -13,7 +14,6 @@
     align-items: center;
 }
 
-
 #midbox{
     background-image: url(../imgAndGifs/fondo2.jpg);
     height: 40vh;
@@ -21,9 +21,29 @@
     background-size: cover;
     background-position: center;
     display: flex;
+    justify-content: center;
 }
 
+.avatar {
+    align-self: center;
+    height: 100px;
+    width: 100px;
+    display: none;
+}
 
+/* #abde {
+    align-self: center;
+    height: 100px;
+    width: 100px;
+    display: none;
+}
+
+#daniel {
+    align-self: center;
+    height: 100px;
+    width: 100px;
+    display: none;
+} */
 
 
 .h1{
@@ -49,13 +69,15 @@
     background-color: rgb(6, 78, 185);
     margin: 2%;
     border-radius: 8px;
-    border-style:solid;
+    border-style: solid;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .boxbni{
-    margin-top: 10%;
+    position: relative;
     height: 40px;
     width: 40px;
     color: white;
@@ -63,18 +85,17 @@
     align-items: center;
 }
 
-
 #boxBl1{
-    height: 10%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
 }
 
 #boxBl2{
-    word-wrap: break-word;
-    margin-top: 10%;
+    color: white;
+    padding: 10px;
+    columns: 2;
 }
 
 #boxBr1{
