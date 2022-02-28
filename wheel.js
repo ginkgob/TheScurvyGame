@@ -1,7 +1,7 @@
 //-----WHEEL OF DOOM-----
 
 let players = ['Abde', 'Adrian', 'Albert', 'Ales', 'Alex', 'Daniel', 'Guillermo', 'Ingryd', 'Jess', 'Liviu', 'Lucas', 'Scarlet', 'Sergi', 'Uri', 'Yeray'];
-//let lemonclick = document.querySelector('.limon');
+
 let abde = document.querySelector('#abde');
 let adrian = document.querySelector('#adrian');
 let albert = document.querySelector('#albert');
@@ -16,9 +16,7 @@ let lucas = document.querySelector('#lucas');
 let scarlet = document.querySelector('#scarlet');
 let sergi = document.querySelector('#sergi');
 let uri = document.querySelector('#uri');
-let yeray = document.querySelector('#yeray');
-
-//let prueba = ['Armando', 'Rocio', 'Hector']
+let yeray = document.querySelector('#yeray'); 
 
 //console.log(players.length);
 
@@ -59,7 +57,7 @@ function randomPlayer (name) {
 };
 
 let deadPlayer = randomPlayer(players);
-console.log('Ha muerto: ' + deadPlayer); 
+console.log('Ha muerto: ' + deadPlayer);
 
 /* let pruebafuncion = randomPlayer(prueba);
 console.log(pruebafuncion); */
