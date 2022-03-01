@@ -2,9 +2,8 @@
 
 let alivePlayers = ['Abde', 'Adrian', 'Albert', 'Ales', 'Alex', 'Daniel', 'Damaris', 'Guillermo', 'Ingryd', 'Jess', 'Liviu', 'Lucas', 'Miguel', 'Scarlet', 'Sergi', 'Uri'];
 let deadPlayers = [];
-//console.log(playersAlive.length);
 
-let abde = document.querySelector('#abde');
+/* let abde = document.querySelector('#abde');
 let adrian = document.querySelector('#adrian');
 let albert = document.querySelector('#albert');
 let ales = document.querySelector('#ales');
@@ -21,9 +20,9 @@ let scarlet = document.querySelector('#scarlet');
 let sergi = document.querySelector('#sergi');
 let uri = document.querySelector('#uri');
 
-function randomPlayer (name) {
-    let randomPlayer = name[Math.floor(Math.random()*name.length)];
-        if (randomPlayer === 'Abde') {
+function chooseRandomPlayer (name) {
+    let randomPlayer = name[Math.floor(Math.random()*name.length)]; //let id = randomplayer (transform en minusculas)
+        if (randomPlayer === 'Abde') { //pasar minusculas + variable 
             abde.style.display = 'block'
         } else if (randomPlayer === 'Adrian') {
             adrian.style.display = 'block';
@@ -55,39 +54,33 @@ function randomPlayer (name) {
             uri.style.display = 'block';
         } else if (randomPlayer === 'Miguel') {
             miguel.style.display = 'block';
-        }; 
-    return randomPlayer;
+        };
+    return randomPlayer//.push(deadPlayers);
 };
 
-let pickedPlayer = randomPlayer(alivePlayers); //llamo a la funcion
+let result = chooseRandomPlayer(alivePlayers);
+//console.log(result);
+*/
 
-console.log(alivePlayers);
-console.log(alivePlayers.length);
-console.log('Ha muerto: ' + pickedPlayer);
+//-------------------------------------------PRUEBA------------------------------------------------
 
-//-------PRUEBAS DE SPLICE--------
 
-let arrayTest = ['Juan', 'Isabel', 'Laura'];
 
-let ri = Math.floor(Math.random()*arrayTest.length);
-let rs = arrayTest.splice(ri, 1);
+let arr1 = ['Abde', 'Adrian', 'Albert', 'Ales', 'Alex', 'Daniel']
+let arr2 = [];
+//Creamos dos arrays, el inicial y el final
 
-//console.log(rs);
-
-function randsplice (test) {
-    // for(let i = arrayTest.length-1;i>=0;i--){
-    //     arrayTest.splice(Math.floor(Math.random()*arrayTest.length), 1);
-    //     console.log(arrayTest);
-    //   }
-    
-    
-    // let ri = test[Math.floor(Math.random()*test.length)];
-    // console.log('ss',ri)
-    let rs = test.splice(Math.floor(Math.random()*test.length));
-    console.log('rr',rs)
-    return rs;
+function forTesting (array1, array2) {
+    let result = 0;
+    if (array1.length>0) {
+        randomName = Math.floor(Math.random()*array1.length); //Agarramos un nombre random de array1
+        nameSubstraction = array1.splice(randomName, 1).toString(); //Quitamos ese nombre random de array1
+        addToArray = array2.push(nameSubstraction); //Colocamos el nombre random en array2
+        console.log(array1, array2);
+    }
+    //for (i=0; i < array1.length; i++) { //loop para que solo se pueda repetir n veces
+    //};
+    return result;
 };
 
-let totalResult = randsplice(arrayTest);
-console.log(totalResult);
-console.log(arrayTest);
+let resultado = forTesting(arr1, arr2);
