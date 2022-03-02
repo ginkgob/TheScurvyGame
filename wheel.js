@@ -62,13 +62,6 @@ let result = chooseRandomPlayer(alivePlayers);
 //console.log(result);
 */
 
-//-------------------------------------------PRUEBA------------------------------------------------
-
-
-
-let arr1 = ['Abde', 'Adrian', 'Albert', 'Ales', 'Alex', 'Daniel']
-let arr2 = [];
-//Creamos dos arrays, el inicial y el final
 
 function forTesting (array1, array2) {
     let result = 0;
@@ -78,9 +71,5 @@ function forTesting (array1, array2) {
         addToArray = array2.push(nameSubstraction); //Colocamos el nombre random en array2
         console.log(array1, array2);
     }
-    //for (i=0; i < array1.length; i++) { //loop para que solo se pueda repetir n veces
-    //};
     return result;
 };
-
-let resultado = forTesting(arr1, arr2);
