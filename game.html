@@ -1,38 +1,87 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="./CSS/game.css" rel="stylesheet">
+        <link rel="stylesheet" href="./CSS/mediaQueries.css">
     </head>
     <body>
         <main>
             <section id="topbox">
                 <h1 class="h1"> Click the Lemon! </h1>
-                <img class="limon" src="./imgAndGifs/limonpixel.png">
+                <a href="" onclick="randomPlayer()">
+                    <img class="limon" src="./imgAndGifs/limonpixel.png">
+                </a>
             </section>
-            <section id="midbox"></section>
+            <section id="midbox">
+                <img class="avatar" id="abde" src="./avatar png/Abde-removebg-preview.png" alt="abde">
+                <img class="avatar" id="adrian" src="./avatar png/Adrian-removebg-preview.png" alt="adrian">
+                <img class="avatar" id="albert" src="./avatar png/Albert-removebg-preview.png" alt="albert">
+                <img class="avatar" id="ales" src="./avatar png/Ales-removebg-preview.png" alt="ales">
+                <img class="avatar" id="alex" src="./avatar png/Alex-removebg-preview.png" alt="alex">
+                <img class="avatar" id="daniel" src="./avatar png/Daniel-removebg-preview.png" alt="daniel">
+                <img class="avatar" id="guillermo" src="./avatar png/Guillermo-removebg-preview.png" alt="guillermo">
+                <img class="avatar" id="ingryd" src="./avatar png/Ingryd-removebg-preview.png" alt="ingryd">
+                <img class="avatar" id="jess" src="./avatar png/Jess-removebg-preview.png" alt="jess">
+                <img class="avatar" id="liviu" src="./avatar png/Liviu-removebg-preview.png" alt="liviu">
+                <img class="avatar" id="lucas" src="./avatar png/Lucas-removebg-preview.png" alt="lucas">
+                <img class="avatar" id="scarlet" src="./avatar png/Scarlet.png" alt="scarlet">
+                <img class="avatar" id="sergi" src="./avatar png/Sergi-removebg-preview.png" alt="sergi">
+                <img class="avatar" id="uri" src="./avatar png/Uri-removebg-preview.png" alt="uri">
+                <img class="avatar" id="miguel" src="./avatar png/Miguel2.png" alt="miguel">
+                <img class="avatar" id="damaris" src="./avatar png/Damares.png" alt="damaris">
+            </section>
             <section id="bottombox">
-            <div class="boxB">
-                <div id="boxBl1">
-                    <img class="boxbni" src="./imgAndGifs/heart.png">
-                    <div class="boxbni">ALIVE</div>
+                <div class="boxB">
+                    <div id="boxBl1">
+                        <img class="boxbni" src="./imgAndGifs/heart.png">
+                        <div class="boxbni">ALIVE</div>
+                    </div>
+                    <div id="boxBl2">
+                        <p class="playernames" id="abde">Abde</p>
+                        <p class="playernames" id="Adrian">Adrian</p>
+                        <p class="playernames" id="albert">Albert</p>
+                        <p class="playernames" id="ales">Ales</p>
+                        <p class="playernames" id="alex">Alex</p>
+                        <p class="playernames" id="daniel">Daniel</p>
+                        <p class="playernames" id="guillermo">Guillermo</p>
+                        <p class="playernames" id="ingryd">Ingryd</p>
+                        <p class="playernames" id="jess">Jess</p>
+                        <p class="playernames" id="liviu">Liviu</p>
+                        <p class="playernames" id="lucas">Lucas</p>
+                        <p class="playernames" id="scarlet">Scarlet</p>
+                        <p class="playernames" id="sergi">Sergi</p>
+                        <p class="playernames" id="uri">Uri</p>
+                        <p class="playernames" id="yeray">Yeray</p>
+                    </div>
                 </div>
-                <div id="boxBl2">
-                <!--aqui va texto-->
-                </div>
-            </div>
             <div class="boxB">
                 <div id="boxBr1">
                     <div class="boxbni">DEAD</div>
                     <img class="boxbni" src="./imgAndGifs/skull.png">
                 </div>
                 <div id="boxBr2">
-                <!--aqui va texto-->
+                    <p class="playernames" id="abde">Abde</p>
+                    <p class="playernames" id="Adrian">Adrian</p>
+                    <p class="playernames" id="albert">Albert</p>
+                    <p class="playernames" id="ales">Ales</p>
+                    <p class="playernames" id="alex">Alex</p>
+                    <p class="playernames" id="daniel">Daniel</p>
+                    <p class="playernames" id="guillermo">Guillermo</p>
+                    <p class="playernames" id="ingryd">Ingryd</p>
+                    <p class="playernames" id="jess">Jess</p>
+                    <p class="playernames" id="liviu">Liviu</p>
+                    <p class="playernames" id="lucas">Lucas</p>
+                    <p class="playernames" id="scarlet">Scarlet</p>
+                    <p class="playernames" id="sergi">Sergi</p>
+                    <p class="playernames" id="uri">Uri</p>
+                    <p class="playernames" id="yeray">Yeray</p>
                 </div>
             </div>
             </section>
         </main>
+    <script src="./wheel.js"></script>
     </body>
 </html>
