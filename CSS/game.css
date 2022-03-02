@@ -74,12 +74,15 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
+    font-family: 'Redressed', cursive;
+    font-weight: bolder;
 }
 
 #boxBl2{
     color: white;
-    padding: 10px;
-    columns: 2;
+    padding: 15px;
+    font-family:'Times New Roman', Times, serif
+    font-weight: bolder;
 }
 
 #boxBr1{

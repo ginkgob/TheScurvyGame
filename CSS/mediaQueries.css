@@ -89,15 +89,19 @@
     }
 
     #boxBl1{
+        height: 50px;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        font-size: 30px;
     }
 
     #boxBl2{
         color: white;
-        columns: 2;
+        columns: 3;
+        font-size: 15px;
+        column-gap: 100px;
     }
 
     #boxBr1{
