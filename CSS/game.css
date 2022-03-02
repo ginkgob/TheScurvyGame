@@ -71,7 +71,22 @@
 #boxBl1 {
     width: 100%;
     display: flex;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-family: 'Overlock SC', cursive;
+    font-weight: bolder;
+}
+
+#boxBl2{
+    color: white;
+    padding: 15px;
+font-family: 'Martel', serif;
+    font-weight: bolder;
+}
+
+#boxBr1{
+    height: 10%;
+    display: flex;
     align-items: center;
     font-family: 'Redressed', cursive;
     font-weight: bold;
