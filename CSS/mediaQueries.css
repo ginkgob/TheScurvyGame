@@ -20,6 +20,37 @@
         border-radius: 8px;
     }
 
+    .avatar {
+        position: relative;
+        align-self: center;
+        height: 20vh;
+        width: 150px;
+        display: none;
+    }
+
+    #midbox {
+        height: 85vh;
+    }
+
+    #topbox{
+        display: flex;
+        justify-content: center;
+    }
+
+    .boxB{
+        width: 25%;
+        height: 80%;
+        background-color: rgb(6, 78, 185);
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 8px;
+        border-style: solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     #topbox{
         height: 10vh;
     }
@@ -29,7 +60,6 @@
         display: flex;
         justify-content: center;
     }
-
 
     .avatar {
         align-self: center;
@@ -80,5 +110,5 @@
     #boxBr2{
         color: white;
         columns: 2;
-}
+    }
 }

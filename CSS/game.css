@@ -5,17 +5,17 @@
     margin: 0%;
 }
 
+/*-----BODY-----*/
 
 #topbox{
     display: flex;
-    background-color: rgb(165, 224, 248);
-    height: 10%;
+    background-color: rgb(157, 222, 252);
     justify-content:space-evenly;
     align-items: center;
 }
 
 #midbox{
-    background-image: url(../imgAndGifs/fondo2.jpg);
+    background-image: url(../imgAndGifs/fondo2largo.jpg);
     height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,9 +43,8 @@
 #bottombox{
     display: flex;
     justify-content: center;
-    background-color: rgb(113, 144, 190);
+    background-color: rgb(85, 121, 173);
     height: 50vh;
-    background-size: cover;
 }
 
 .boxB{
@@ -73,7 +72,7 @@
 #boxBl1{
     width: 80%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
 }
 
@@ -86,7 +85,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
 }
 
 #boxBr2{
