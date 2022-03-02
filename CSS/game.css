@@ -85,34 +85,17 @@ font-family: 'Martel', serif;
 }
 
 #boxBr1{
-    height: 10%;
-    display: flex;
-    align-items: center;
-    font-family: 'Redressed', cursive;
-    font-weight: bold;
-}
-
-#boxBl2 {
-    color: white;
-    padding: 15px;
-    columns: 2;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-
-#boxBr1 {
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Redressed', cursive;
-    font-weight: bold;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-family: 'Overlock SC', cursive;
+    font-weight: bolder;
 }
 
 #boxBr2 {
     color: white;
     padding: 15px;
-    columns: 2;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: bold;
+    font-family: 'Martel', serif;
+    font-weight: bolder;
 }
