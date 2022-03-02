@@ -77,7 +77,7 @@
     }
 
     .boxB{
-        width: 30%;
+        width: 500px;
         height: 80%;
     }
 
@@ -104,7 +104,8 @@
     #boxBr1{
         height: 100%;
         width: 100%;
-    
+        display: flex;
+        justify-content: center;
     }
 
     #boxBr2{
@@ -112,6 +113,6 @@
         color: white;
         padding: 10px;
         columns: 3;
-        column-gap: 100px;
+        column-gap: 50px;
     }
 }
