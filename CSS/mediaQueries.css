@@ -102,15 +102,16 @@
     }
 
     #boxBr1{
+        height: 100%;
         width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
     
     }
 
     #boxBr2{
+        font-size: 15px;
         color: white;
-        columns: 2;
+        padding: 10px;
+        columns: 3;
+        column-gap: 100px;
     }
 }
