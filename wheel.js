@@ -21,12 +21,12 @@ let sergi = document.querySelector('#sergi');
 let uri = document.querySelector('#uri');
 
 function chooseRandomPlayer (name) {
-    let randomPlayer = name[Math.floor(Math.random()*name.length)]; //let id = randomplayer (transform en minusculas)
-        if (randomPlayer === 'Abde') { //pasar minusculas + variable 
+    let randomPlayer = name[Math.floor(Math.random()*name.length)];     //let id = randomplayer (transform en minusculas)
+        if (randomPlayer === 'Abde') {                                  //pasar minusculas + variable 
             abde.style.display = 'block'
         } else if (randomPlayer === 'Adrian') {
             adrian.style.display = 'block';
-        } else if (randomPlayer === 'Albert') {gi
+        } else if (randomPlayer === 'Albert') {
             albert.style.display = 'block';
         } else if (randomPlayer === 'Ales') {
             ales.style.display = 'block';
@@ -52,23 +52,23 @@ function chooseRandomPlayer (name) {
             sergi.style.display = 'block';
         } else if (randomPlayer === 'Uri') {
             uri.style.display = 'block';
-        } else if (randomPlayer === 'Yeray') {
-            yeray.style.display = 'block';
+        } else if (randomPlayer === 'Miguel') {
+            miguel.style.display = 'block';
         };
     return randomPlayer//.push(deadPlayers);
 };
 
 let result = chooseRandomPlayer(alivePlayers);
 //console.log(result);
-*/
 
+*/
 
 function forTesting (array1, array2) {
     let result = 0;
     if (array1.length > 0) {
         randomName = Math.floor(Math.random()*array1.length); //Agarramos un nombre random de array1
         nameSubstraction = array1.splice(randomName, 1).toString(); //Quitamos ese nombre random de array1
-        addToArray = array2.unshift(nameSubstraction[0]); //Colocamos el nombre random en array2
+        addToArray = array2.unshift(nameSubstraction); //Colocamos el nombre random en array2
         console.log(array1, array2);
     }
     return result;
