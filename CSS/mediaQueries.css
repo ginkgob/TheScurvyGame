@@ -50,4 +50,13 @@
         justify-content: center;
         align-items: center;
     }
+
+    .boxB2 {
+        font-size: 30px;
+        color: white;
+        padding: 15px;
+        font-family: 'Martel', serif;
+        column-count: 3;
+        column-width: 110px;
+    }
 }
