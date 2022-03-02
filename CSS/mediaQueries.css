@@ -38,13 +38,6 @@
         justify-content: center;
     }
 
-    .boxB {
-        width: 500px;
-        margin-left: 60px;
-        margin-right: 60px;
-        border-radius: 8px;
-    }
-
     #midbox {
         height: 80vh;
         display: flex;
@@ -70,8 +63,14 @@
         width: 50px;
     }
 
+    .boxB {
+        width: 500px;
+        margin-left: 60px;
+        margin-right: 60px;
+        border-radius: 8px;
+    }
+
     .boxB1 {
-        height: 100%;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -79,10 +78,11 @@
     }
 
     .boxB2 {
-        font-size: 15px;
+        font-size: 30px;
         color: white;
-        padding: 10px;
-        columns: 3;
-        column-gap: 50px;
+        padding: 15px;
+        font-family: 'Martel', serif;
+        column-count: 3;
+        column-width: 110px;
     }
 }

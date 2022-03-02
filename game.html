@@ -15,8 +15,8 @@
     <body>
         <main>
             <section id="topbox">
-                <h1 class="h1"> Click the Lemon! </h1>
-                <img class="limon" src="./imgAndGifs/limonpixel.png" onclick="forTesting(alivePlayers, deadPlayers)">
+                <h1 class="h1">Click the Lemon!</h1>
+                <img class="limon" src="./imgAndGifs/limonpixel.png" onclick="killPlayers(alivePlayers, deadPlayers)">
             </section>
             <section id="midbox">
                 <img class="avatar" id="abde" src="./avatar png/Abde-removebg-preview.png" alt="abde">
@@ -44,25 +44,25 @@
                         <img class="boxbni" src="./imgAndGifs/heart.png">
                         <div class="boxbni">ALIVE</div>
                     </div>
-                    <div class="boxB2">
-                        <p class="playernames" id="abde">Abde</p>
-                        <p class="playernames" id="Adrian">Adrian</p>
-                        <p class="playernames" id="albert">Albert</p>
-                        <p class="playernames" id="ales">Ales</p>
-                        <p class="playernames" id="alex">Alex</p>
-                        <p class="playernames" id="damaris">Damaris</p>
-                        <p class="playernames" id="daniel">Daniel</p>
-                        <p class="playernames" id="guillermo">Guillermo</p>
-                        <p class="playernames" id="ingryd">Ingrid</p>
-                        <p class="playernames" id="jess">Jess</p>
-                        <p class="playernames" id="jose">Jose</p>
-                        <p class="playernames" id="laura">Laura</p>
-                        <p class="playernames" id="liviu">Liviu</p>
-                        <p class="playernames" id="lucas">Lucas</p>
-                        <p class="playernames" id="miguel">Miguel</p>
-                        <p class="playernames" id="uri">Oriol</p>
-                        <p class="playernames" id="scarlet">Scarlet</p>
-                        <p class="playernames" id="sergi">Sergi</p>
+                    <div class="boxB2" id="alivePlayers">
+                        <p>Abde</p>
+                        <p>Albert</p>
+                        <p>Adrian</p>
+                        <p>Ales</p>
+                        <p>Alex</p>
+                        <p>Damaris</p>
+                        <p>Daniel</p>
+                        <p>Guillermo</p>
+                        <p>Ingrid</p>
+                        <p>Jess</p>
+                        <p>Jose</p>
+                        <p>Laura</p>
+                        <p>Liviu</p>
+                        <p>Lucas</p>
+                        <p>Miguel</p>
+                        <p>Oriol</p>
+                        <p>Scarlet</p>
+                        <p>Sergi</p>
                     </div>
                 </div>
             <div class="boxB">
@@ -70,25 +70,8 @@
                     <div class="boxbni">DEAD</div>
                     <img class="boxbni" src="./imgAndGifs/skull.png">
                 </div>
-                <div class="boxB2">
-                    <p class="playernames" id="abde">Abde</p>
-                    <p class="playernames" id="Adrian">Adrian</p>
-                    <p class="playernames" id="albert">Albert</p>
-                    <p class="playernames" id="ales">Ales</p>
-                    <p class="playernames" id="alex">Alex</p>
-                    <p class="playernames" id="damaris">Damaris</p>
-                    <p class="playernames" id="daniel">Daniel</p>
-                    <p class="playernames" id="guillermo">Guillermo</p>
-                    <p class="playernames" id="ingryd">Ingrid</p>
-                    <p class="playernames" id="jess">Jess</p>
-                    <p class="playernames" id="jose">Jose</p>
-                    <p class="playernames" id="laura">Laura</p>
-                    <p class="playernames" id="liviu">Liviu</p>
-                    <p class="playernames" id="lucas">Lucas</p>
-                    <p class="playernames" id="miguel">Miguel</p>
-                    <p class="playernames" id="uri">Oriol</p>
-                    <p class="playernames" id="scarlet">Scarlet</p>
-                    <p class="playernames" id="sergi">Sergi</p>
+                <div class="boxB2" id="deadPlayers">
+
                 </div>
             </div>
             </section>

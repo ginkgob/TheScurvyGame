@@ -32,7 +32,7 @@
 
 .h1 {
     font-family: 'Redressed', cursive;
-    font-size:xx-large;
+    font-size: 50px;
 }
 
 .limon {
@@ -69,18 +69,20 @@
 
 .boxB1 {
     width: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
+    color: white;
     font-family: 'Overlock SC', cursive;
     font-weight: bold;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
 
-.boxB2{
+.boxB2 {
+    height: 100%;
+    font-size: 25px;
     color: white;
     padding: 15px;
     font-family: 'Martel', serif;
-    font-weight: bold;
-    columns: 2;
+    column-count: 2;
+    column-width: 85px;
 }
