@@ -26,7 +26,7 @@ function chooseRandomPlayer (name) {
             abde.style.display = 'block'
         } else if (randomPlayer === 'Adrian') {
             adrian.style.display = 'block';
-        } else if (randomPlayer === 'Albert') {
+        } else if (randomPlayer === 'Albert') {gi
             albert.style.display = 'block';
         } else if (randomPlayer === 'Ales') {
             ales.style.display = 'block';
@@ -52,8 +52,8 @@ function chooseRandomPlayer (name) {
             sergi.style.display = 'block';
         } else if (randomPlayer === 'Uri') {
             uri.style.display = 'block';
-        } else if (randomPlayer === 'Miguel') {
-            miguel.style.display = 'block';
+        } else if (randomPlayer === 'Yeray') {
+            yeray.style.display = 'block';
         };
     return randomPlayer//.push(deadPlayers);
 };
