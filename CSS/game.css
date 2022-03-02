@@ -4,26 +4,29 @@
 }
 
 #topbox{
+    display: flex;
+    background-color: rgb(165, 224, 248);
+    height: 10%;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+
+#midbox{
     background-image: url(../imgAndGifs/fondo2.jpg);
-    height: 60vh;
+    height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content:space-evenly;
 }
 
 .h1{
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
     font-family: 'Redressed', cursive;
-    height: 10%;
-    margin-top: 40px;
+    font-size:xx-large;
 }
 
 .limon{
-    margin-top: 15px;
     height: 100px;   
 }
 
@@ -37,7 +40,7 @@
 
 .boxB{
     width: 45%;
-    height: 90%;
+    height: 80%;
     background-color: rgb(6, 78, 185);
     margin: 2%;
     border-radius: 8px;
@@ -47,6 +50,7 @@
 }
 
 .boxbni{
+    margin-top: 10%;
     height: 40px;
     width: 40px;
     color: white;
