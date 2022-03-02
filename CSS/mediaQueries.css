@@ -28,9 +28,10 @@
         display: none;
     }
 
-    #midbox {
-        height: 85vh;
+    #midbox{
+        background-size: 100vw 150vh;
     }
+
 
     #topbox{
         display: flex;
