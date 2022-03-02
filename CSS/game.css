@@ -1,20 +1,20 @@
 /*-----ALL-----*/
 
-*{
+* {
     padding: 0%;
     margin: 0%;
 }
 
 /*-----BODY-----*/
 
-#topbox{
+#topbox {
     display: flex;
     background-color: rgb(157, 222, 252);
     justify-content:space-evenly;
     align-items: center;
 }
 
-#midbox{
+#midbox {
     background-image: url(../imgAndGifs/fondo2largo.jpg);
     height: 40vh;
     background-repeat: no-repeat;
@@ -31,23 +31,23 @@
     display: none;
 }
 
-.h1{
+.h1 {
     font-family: 'Redressed', cursive;
     font-size:xx-large;
 }
 
-.limon{
+.limon {
     height: 100px;   
 }
 
-#bottombox{
+#bottombox {
     display: flex;
     justify-content: center;
     background-color: rgb(85, 121, 173);
     height: 50vh;
 }
 
-.boxB{
+.boxB {
     width: 45%;
     height: 80%;
     background-color: rgb(6, 78, 185);
@@ -60,8 +60,7 @@
     align-items: center;
 }
 
-.boxbni{
-    position: relative;
+.boxbni {
     height: 40px;
     width: 40px;
     color: white;
@@ -69,30 +68,36 @@
     align-items: center;
 }
 
-#boxBl1{
+#boxBl1 {
     width: 100%;
     display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    font-family: 'Overlock SC', cursive;
-    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Redressed', cursive;
+    font-weight: bold;
 }
 
-#boxBl2{
+#boxBl2 {
     color: white;
     padding: 15px;
-    font-family: 'Martel', serif;
-    font-weight: bolder;
+    columns: 2;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
-#boxBr1{
-    height: 10%;
+#boxBr1 {
+    width: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
+    font-family: 'Redressed', cursive;
+    font-weight: bold;
 }
 
-#boxBr2{
-    word-wrap: break-word;
-    margin-top: 10%;
+#boxBr2 {
+    color: white;
+    padding: 15px;
+    columns: 2;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
 }

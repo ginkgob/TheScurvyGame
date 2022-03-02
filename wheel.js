@@ -67,7 +67,11 @@ function forTesting (array1, array2) {
     let result = 0;
     if (array1.length > 0) {
         randomName = Math.floor(Math.random()*array1.length); //Agarramos un nombre random de array1
+            console.log('antes del splice' + randomName)
         nameSubstraction = array1.splice(randomName, 1).toString(); //Quitamos ese nombre random de array1
+            console.log('despues del splice '+ nameSubstraction)
+            console.log('aa', delete randomName) //es True
+            console.log(nameSubstraction)
         addToArray = array2.unshift(nameSubstraction); //Colocamos el nombre random en array2
         console.log(array1, array2);
     }
