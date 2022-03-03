@@ -1,6 +1,6 @@
 //-----WHEEL OF DOOM-----
 
-let alivePlayers = ['Abde', 'Adrian', 'Albert', 'Ales', 'Alex', 'Daniel', 'Damaris', 'Guillermo', 'Ingryd', 'Jess', 'Liviu', 'Lucas', 'Miguel', 'Scarlet', 'Sergi', 'Uri', 'Jose M.', 'Laura'];
+let alivePlayers = ['Abde', 'Adrian', 'Albert', 'Ales', 'Alex', 'Daniel', 'Damaris', 'Guillermo', 'Ingryd', 'Jess', 'Liviu', 'Lucas', 'Miguel', 'Scarlet', 'Sergi', 'Uri', 'Jose', 'Laura'];
 let deadPlayers = [];
 
 let avatarImg = document.getElementById('avatar');
@@ -22,7 +22,7 @@ let imgs = {
     'Scarlet': './avatar png/Scarlet.png',
     'Sergi': './avatar png/Sergi-removebg-preview.png',
     'Uri': './avatar png/Uri-removebg-preview.png',
-    'Jose M.': './avatar png/Jose.png',
+    'Jose': './avatar png/Jose.png',
     'Laura': './avatar png/Laura.png'
 } 
 
@@ -30,7 +30,7 @@ function killPlayers (array1, array2) {
     if (array1.length > 0) {
         randomName = Math.floor(Math.random()*array1.length); 
         nameSubstraction = array1.splice(randomName, 1).toString();
-        addToArray = array2.push(nameSubstraction); 
+        addToArray = array2.unshift(nameSubstraction); 
             console.log(array1, array2);
         document.querySelector('#alivePlayers').innerHTML = array1.join(" ");
         document.querySelector('#deadPlayers').innerHTML = array2.join(" ");
