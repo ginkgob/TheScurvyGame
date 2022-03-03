@@ -1,40 +1,29 @@
 //-----WHEEL OF DOOM-----
 
-let players = ['Abde', 'Adrian', 'Albert', 'Ales', 'Alex', 'Daniel', 'Guillermo', 'Ingryd', 'Jess', 'Liviu', 'Lucas', 'Scarlet', 'Sergi', 'Uri', 'Miguel'];
+let alivePlayers = ['Abde', 'Adrian', 'Albert', 'Ales', 'Alex', 'Daniel', 'Damaris', 'Guillermo', 'Ingryd', 'Jess', 'Liviu', 'Lucas', 'Miguel', 'Scarlet', 'Sergi', 'Uri'];
+let deadPlayers = [];
 
-let abde = document.querySelector('#abde');
+/* let abde = document.querySelector('#abde');
 let adrian = document.querySelector('#adrian');
 let albert = document.querySelector('#albert');
 let ales = document.querySelector('#ales');
 let alex = document.querySelector('#alex');
 let daniel = document.querySelector('#daniel');
+let damaris = document.querySelector('#damaris');
 let guillermo = document.querySelector('#guillermo');
 let ingryd = document.querySelector('#ingryd');
 let jess = document.querySelector('#jess');
 let liviu = document.querySelector('#liviu');
 let lucas = document.querySelector('#lucas');
+let miguel = document.querySelector('#miguel'); 
 let scarlet = document.querySelector('#scarlet');
 let sergi = document.querySelector('#sergi');
 let uri = document.querySelector('#uri');
-let miguel = document.querySelector('#miguel'); 
 
-let removed = players.splice();
-
-//console.log(players.length);
-console.log(players);
-
-/* for(var i = array.length-1;i>=0;i--){
-    array.splice(Math.floor(Math.random()*array.length), 1);
-    console.log(array);
-}*/
-
-function randomPlayer (name) {
-    let randomPlayer = name[Math.floor(Math.random()*name.length)];
-    for(let i= players.length-1;i>=0;i--) {
-        players.splice(randomPlayer, 1)
-    };
-        if (randomPlayer === 'Abde') {
-            abde.style.display = 'block' //&& players.splice(name, 1);
+function chooseRandomPlayer (name) {
+    let randomPlayer = name[Math.floor(Math.random()*name.length)];     //let id = randomplayer (transform en minusculas)
+        if (randomPlayer === 'Abde') {                                  //pasar minusculas + variable 
+            abde.style.display = 'block'
         } else if (randomPlayer === 'Adrian') {
             adrian.style.display = 'block';
         } else if (randomPlayer === 'Albert') {
@@ -43,6 +32,8 @@ function randomPlayer (name) {
             ales.style.display = 'block';
         } else if (randomPlayer === 'Alex') {
             alex.style.display = 'block';
+        } else if (randomPlayer === 'Damaris') {
+            damaris.style.display = 'block'
         } else if (randomPlayer === 'Daniel') {
             daniel.style.display = 'block';
         } else if (randomPlayer === 'Guillermo') {
@@ -64,12 +55,23 @@ function randomPlayer (name) {
         } else if (randomPlayer === 'Miguel') {
             miguel.style.display = 'block';
         };
-    return randomPlayer;
+    return randomPlayer//.push(deadPlayers);
 };
 
-let deadPlayer = randomPlayer(players);
-console.log('Ha muerto: ' + deadPlayer);
+let result = chooseRandomPlayer(alivePlayers);
+//console.log(result);
 
-/* let pruebafuncion = randomPlayer(prueba);
-console.log(pruebafuncion); */
+*/
 
+function killPlayers (array1, array2) {
+    let result = 0;
+    if (array1.length > 0) {
+        randomName = Math.floor(Math.random()*array1.length); 
+        nameSubstraction = array1.splice(randomName, 1).toString(); 
+        addToArray = array2.push(nameSubstraction); 
+        console.log(array1, array2);
+        document.querySelector('#alivePlayers').innerHTML = array1.join(" ");
+        document.querySelector('#deadPlayers').innerHTML = array2.join(" ");
+    }
+    return result;
+};

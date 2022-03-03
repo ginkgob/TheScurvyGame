@@ -6,14 +6,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="./CSS/game.css" rel="stylesheet">
         <link rel="stylesheet" href="./CSS/mediaQueries.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap" rel="stylesheet">   
     </head>
     <body>
         <main>
             <section id="topbox">
-                <h1 class="h1"> Click the Lemon! </h1>
-                <a href="" onclick="randomPlayer()">
-                    <img class="limon" src="./imgAndGifs/limonpixel.png">
-                </a>
+                <h1 class="h1">Click the Lemon!</h1>
+                <img class="limon" src="./imgAndGifs/limonpixel.png" onclick="killPlayers(alivePlayers, deadPlayers)">
             </section>
             <section id="midbox">
                 <img class="avatar" id="abde" src="./avatar png/Abde-removebg-preview.png" alt="abde">
@@ -31,53 +34,44 @@
                 <img class="avatar" id="sergi" src="./avatar png/Sergi-removebg-preview.png" alt="sergi">
                 <img class="avatar" id="uri" src="./avatar png/Uri-removebg-preview.png" alt="uri">
                 <img class="avatar" id="miguel" src="./avatar png/Miguel2.png" alt="miguel">
-                <img class="avatar" id="damaris" src="./avatar png/Damares.png" alt="damaris">
+                <img class="avatar" id="damaris" src="./avatar png/Damaris.png" alt="damaris">
+                <img class="avatar" id="jose" src="./avatar png/Jose.png" alt="jose">
+                <img class="avatar" id="laura" src="./avatar png/Laura.png" alt="laura">
             </section>
             <section id="bottombox">
                 <div class="boxB">
-                    <div id="boxBl1">
+                    <div class="boxB1">
                         <img class="boxbni" src="./imgAndGifs/heart.png">
                         <div class="boxbni">ALIVE</div>
                     </div>
-                    <div id="boxBl2">
-                        <p class="playernames" id="abde">Abde</p>
-                        <p class="playernames" id="Adrian">Adrian</p>
-                        <p class="playernames" id="albert">Albert</p>
-                        <p class="playernames" id="ales">Ales</p>
-                        <p class="playernames" id="alex">Alex</p>
-                        <p class="playernames" id="daniel">Daniel</p>
-                        <p class="playernames" id="guillermo">Guillermo</p>
-                        <p class="playernames" id="ingryd">Ingryd</p>
-                        <p class="playernames" id="jess">Jess</p>
-                        <p class="playernames" id="liviu">Liviu</p>
-                        <p class="playernames" id="lucas">Lucas</p>
-                        <p class="playernames" id="scarlet">Scarlet</p>
-                        <p class="playernames" id="sergi">Sergi</p>
-                        <p class="playernames" id="uri">Uri</p>
-                        <p class="playernames" id="yeray">Yeray</p>
+                    <div class="boxB2" id="alivePlayers">
+                        <p>Abde</p>
+                        <p>Albert</p>
+                        <p>Adrian</p>
+                        <p>Ales</p>
+                        <p>Alex</p>
+                        <p>Damaris</p>
+                        <p>Daniel</p>
+                        <p>Guillermo</p>
+                        <p>Ingrid</p>
+                        <p>Jess</p>
+                        <p>Jose</p>
+                        <p>Laura</p>
+                        <p>Liviu</p>
+                        <p>Lucas</p>
+                        <p>Miguel</p>
+                        <p>Oriol</p>
+                        <p>Scarlet</p>
+                        <p>Sergi</p>
                     </div>
                 </div>
             <div class="boxB">
-                <div id="boxBr1">
+                <div class="boxB1">
                     <div class="boxbni">DEAD</div>
                     <img class="boxbni" src="./imgAndGifs/skull.png">
                 </div>
-                <div id="boxBr2">
-                    <p class="playernames" id="abde">Abde</p>
-                    <p class="playernames" id="Adrian">Adrian</p>
-                    <p class="playernames" id="albert">Albert</p>
-                    <p class="playernames" id="ales">Ales</p>
-                    <p class="playernames" id="alex">Alex</p>
-                    <p class="playernames" id="daniel">Daniel</p>
-                    <p class="playernames" id="guillermo">Guillermo</p>
-                    <p class="playernames" id="ingryd">Ingryd</p>
-                    <p class="playernames" id="jess">Jess</p>
-                    <p class="playernames" id="liviu">Liviu</p>
-                    <p class="playernames" id="lucas">Lucas</p>
-                    <p class="playernames" id="scarlet">Scarlet</p>
-                    <p class="playernames" id="sergi">Sergi</p>
-                    <p class="playernames" id="uri">Uri</p>
-                    <p class="playernames" id="yeray">Yeray</p>
+                <div class="boxB2" id="deadPlayers">
+
                 </div>
             </div>
             </section>
