@@ -1,4 +1,4 @@
-﻿# TheScurvyGame
+﻿# The Scurvy Game
 
 El juego virtual ***The Scurvy Game*** (El juego del Escorbruto) trata de una tripulación de piratas que no tiene suficientes limones para salvar a toda la tripulación de la enfermedad del escorbuto que amenaza la vitalidad del barco y empiezan a morir uno a uno.
 Se trata de un simple juego de clicks diseñado para generar un número restringido de nombres no editables.
