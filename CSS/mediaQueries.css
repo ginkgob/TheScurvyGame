@@ -12,7 +12,7 @@
     }
     
     #btn {
-        font-size: 45px;
+        font-size: 30px;
     }
 
     .bottombuttons {
@@ -24,7 +24,7 @@
         margin: 20px;
         background-color: rgba(117, 38, 38, 0.76);
         color: rgb(255, 255, 255);
-        font-size: 35px;
+        font-size: 30px;
         border-radius: 8px;
     }
 
@@ -42,14 +42,13 @@
 
     #avatar {
         position: relative;
-        top: 200px;
-        left: 50px;
         height: 300px;
         width: 300px;
+        bottom: 200px;
     }
 
     #bottombox {
-        height: 35vh;
+        height: 40vh;
         background-size: cover;
     }
 
@@ -61,6 +60,7 @@
     }
 
     .boxB {
+        height: 250px;
         width: 500px;
         margin-left: 60px;
         margin-right: 60px;
@@ -75,11 +75,12 @@
     }
 
     .boxB2 {
-        font-size: 30px;
+        font-size: 25px;
         color: white;
-        padding: 15px;
+        padding: 30px;
         font-family: 'Martel', serif;
         column-count: 3;
-        column-width: 110px;
+        column-width: 100px;
+        column-rule: solid;
     }
 }
