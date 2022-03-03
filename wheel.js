@@ -68,7 +68,7 @@ function killPlayers (array1, array2) {
     if (array1.length > 0) {
         randomName = Math.floor(Math.random()*array1.length); 
         nameSubstraction = array1.splice(randomName, 1).toString(); 
-        addToArray = array2.push(nameSubstraction); 
+        addToArray = array2.unshift(nameSubstraction); 
         console.log(array1, array2);
         document.querySelector('#alivePlayers').innerHTML = array1.join(" ");
         document.querySelector('#deadPlayers').innerHTML = array2.join(" ");

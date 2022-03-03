@@ -21,6 +21,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .avatar {
@@ -32,7 +35,7 @@
 
 .h1 {
     font-family: 'Redressed', cursive;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .limon {
@@ -53,10 +56,6 @@
     margin: 2%;
     border-radius: 8px;
     border-style: solid;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .boxbni {
@@ -78,11 +77,20 @@
 }
 
 .boxB2 {
-    height: 100%;
-    font-size: 25px;
+    position: relative;
+    height: 90%;
+    width: 100%;
+    font-size: 15px;
     color: white;
     padding: 15px;
-    font-family: 'Martel', serif;
-    column-count: 2;
-    column-width: 85px;
+}
+
+#button{
+    background-color: rgb(85, 121, 173);
+    border: rgb(85, 121, 173);
+    color: white;
+    font-size: 25px;
+    font-family: 'Redressed', cursive;
+    height: 5vh;
+    width: 20vw;
 }
