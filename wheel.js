@@ -3,75 +3,138 @@
 let alivePlayers = ['Abde', 'Adrian', 'Albert', 'Ales', 'Alex', 'Daniel', 'Damaris', 'Guillermo', 'Ingryd', 'Jess', 'Liviu', 'Lucas', 'Miguel', 'Scarlet', 'Sergi', 'Uri'];
 let deadPlayers = [];
 
-/* let abde = document.querySelector('#abde');
-let adrian = document.querySelector('#adrian');
-let albert = document.querySelector('#albert');
-let ales = document.querySelector('#ales');
-let alex = document.querySelector('#alex');
-let daniel = document.querySelector('#daniel');
-let damaris = document.querySelector('#damaris');
-let guillermo = document.querySelector('#guillermo');
-let ingryd = document.querySelector('#ingryd');
-let jess = document.querySelector('#jess');
-let liviu = document.querySelector('#liviu');
-let lucas = document.querySelector('#lucas');
-let miguel = document.querySelector('#miguel'); 
-let scarlet = document.querySelector('#scarlet');
-let sergi = document.querySelector('#sergi');
-let uri = document.querySelector('#uri');
+let avatarImg = document.getElementById('avatar');
 
-function chooseRandomPlayer (name) {
-    let randomPlayer = name[Math.floor(Math.random()*name.length)];     //let id = randomplayer (transform en minusculas)
-        if (randomPlayer === 'Abde') {                                  //pasar minusculas + variable 
-            abde.style.display = 'block'
-        } else if (randomPlayer === 'Adrian') {
-            adrian.style.display = 'block';
-        } else if (randomPlayer === 'Albert') {
-            albert.style.display = 'block';
-        } else if (randomPlayer === 'Ales') {
-            ales.style.display = 'block';
-        } else if (randomPlayer === 'Alex') {
-            alex.style.display = 'block';
-        } else if (randomPlayer === 'Damaris') {
-            damaris.style.display = 'block'
-        } else if (randomPlayer === 'Daniel') {
-            daniel.style.display = 'block';
-        } else if (randomPlayer === 'Guillermo') {
-            guillermo.style.display = 'block';
-        } else if (randomPlayer === 'Ingryd') {
-            ingryd.style.display = 'block';
-        } else if (randomPlayer === 'Jess') {
-            jess.style.display = 'block';
-        } else if (randomPlayer === 'Liviu') {
-            liviu.style.display = 'block';
-        } else if (randomPlayer === 'Lucas') {
-            lucas.style.display = 'block';
-        } else if (randomPlayer === 'Scarlet') {
-            scarlet.style.display = 'block';
-        } else if (randomPlayer === 'Sergi') {
-            sergi.style.display = 'block';
-        } else if (randomPlayer === 'Uri') {
-            uri.style.display = 'block';
-        } else if (randomPlayer === 'Miguel') {
-            miguel.style.display = 'block';
-        };
-    return randomPlayer//.push(deadPlayers);
-};
+/* let imgs = {
+    'Abde': './avatar png/Abde-removebg-preview.png',
+    'Adrian': './avatar png/Adrian-removebg-preview.png'
+} */
 
-let result = chooseRandomPlayer(alivePlayers);
-//console.log(result);
-
-*/
+let abde = document.getElementById('abde');
+let adrian = document.getElementById('adrian');
+let albert = document.getElementById('albert');
+let ales = document.getElementById('ales');
+let alex = document.getElementById('alex');
+let daniel = document.getElementById('daniel');
+let damaris = document.getElementById('damaris');
+let guillermo = document.getElementById('guillermo');
+let ingryd = document.getElementById('ingryd');
+let jess = document.getElementById('jess');
+let liviu = document.getElementById('liviu');
+let lucas = document.getElementById('lucas');
+let miguel = document.getElementById('miguel'); 
+let scarlet = document.getElementById('scarlet');
+let sergi = document.getElementById('sergi');
+let uri = document.getElementById('uri');
 
 function killPlayers (array1, array2) {
-    let result = 0;
     if (array1.length > 0) {
         randomName = Math.floor(Math.random()*array1.length); 
-        nameSubstraction = array1.splice(randomName, 1).toString(); 
+        nameSubstraction = array1.splice(randomName, 1).toString();
         addToArray = array2.push(nameSubstraction); 
-        console.log(array1, array2);
+            console.log(array1, array2);
         document.querySelector('#alivePlayers').innerHTML = array1.join(" ");
         document.querySelector('#deadPlayers').innerHTML = array2.join(" ");
-    }
-    return result;
+    };
+switch (nameSubstraction) {
+    case 'Abde': 
+        abde.style.display = 'block';
+        setTimeout(function() {
+            abde.style.display = 'none'
+        }, 2000);
+        break;
+    case 'Adrian': 
+        adrian.style.display = 'block';
+        setTimeout(function() {
+            adrian.style.display = 'none'
+        }, 2000); 
+        break;
+    case 'Albert':
+        albert.style.display = 'block';
+        setTimeout(function() {
+            albert.style.display = 'none'
+        }, 2000);
+        break;
+    case 'Ales': 
+        ales.style.display = 'block';
+        setTimeout(function() {
+            ales.style.display = 'none'
+        }, 2000);
+        break;
+    case 'Alex': 
+        alex.style.display = 'block';
+        setTimeout(function() {
+            alex.style.display = 'none'
+        }, 2000);
+        break;
+    case 'Damaris': 
+        damaris.style.display = 'block';
+        setTimeout(function() {
+        damaris.style.display = 'none'
+        }, 2000);
+            break;
+    case 'Daniel': 
+        daniel.style.display = 'block';
+        setTimeout(function() {
+            daniel.style.display = 'none'
+        }, 2000);
+            break;
+    case 'Guillermo':
+        guillermo.style.display = 'block';
+        setTimeout(function() {
+            guillermo.style.display = 'none'
+        }, 2000);
+            break;
+    case 'Ingryd': 
+        ingryd.style.display = 'block';
+        setTimeout(function() {
+            ingryd.style.display = 'none'
+        }, 2000);
+            break;
+    case 'Jess': 
+        jess.style.display = 'block';
+        setTimeout(function() {
+            jess.style.display = 'none'
+        }, 2000);
+            break;
+    case 'Liviu': 
+        liviu.style.display = 'block';
+        setTimeout(function() {
+            liviu.style.display = 'none'
+        }, 2000);
+            break;
+    case 'Lucas': 
+        lucas.style.display = 'block';
+        setTimeout(function() {
+            lucas.style.display = 'none'
+        }, 2000);
+            break;
+    case 'Scarlet': 
+        scarlet.style.display = 'block';
+        setTimeout(function() {
+            scarlet.style.display = 'none'
+        }, 2000);
+            break;
+    case 'Sergi': 
+        sergi.style.display = 'block';
+        setTimeout(function() {
+            sergi.style.display = 'none'
+        }, 2000);
+            break;
+    case 'Uri': 
+        uri.style.display = 'block';
+        setTimeout(function() {
+            uri.style.display = 'none'
+        }, 2000);
+            break;
+    case 'Miguel': 
+        miguel.style.display = 'block';
+        setTimeout(function() {
+            miguel.style.display = 'none'
+        }, 2000);
+            break;
+    default: //no imprime ya que el if array1.lenght > 0, con >= quedan valores libres
+            console.log('¡¡¡FIN DE CICLO!!!');
+        };
 };
+
