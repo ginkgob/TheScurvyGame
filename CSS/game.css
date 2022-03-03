@@ -23,11 +23,12 @@
     background-position: center;
 }
 
-.avatar {
-    align-self: center;
-    height: 100px;
-    width: 100px;
-    display: none;
+#avatar {
+    position: relative;
+    top: 55px;
+    left: 130px;
+    height: 125px;
+    width: 125px;
 }
 
 .h1 {
