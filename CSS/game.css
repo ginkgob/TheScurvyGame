@@ -13,6 +13,7 @@
     background-color: rgb(171, 183, 247);
     justify-content: space-evenly;
     align-items: center;
+    height: 8vh;
 }
 
 #midbox {
@@ -28,8 +29,8 @@
 
 #avatar {
     position: relative;
-    height: 125px;
-    width: 125px;
+    height: 150px;
+    width: 150px;
     bottom: 130px;
     
 }
@@ -82,22 +83,28 @@
     column-width: 50px;
 }
 
+#a{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(85, 121, 173);
+    border: rgb(85, 121, 173);
+    color: white;
+    
+}
 #button{
     background-color: rgb(85, 121, 173);
     border: rgb(85, 121, 173);
     color: white;
     font-size: 40px;
-    font-family: 'Redressed', cursive;
-    height: 5vh;
-    width: 20vw;
-    
+    font-family: 'Redressed', cursive;  
 }
 
 #deadPlayers{
-    font-size: 19px;
+    font-size: 15px;
     height: 100%;
     color: white;
     padding: 15px;
     column-count: 2;
-    column-width: 85px;
+    column-width: 50px;
+    font-family: 'Martel', serif;
 }
