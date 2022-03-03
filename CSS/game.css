@@ -26,11 +26,12 @@
     align-items: flex-end;
 }
 
-.avatar {
-    align-self: center;
-    height: 100px;
-    width: 100px;
-    display: none;
+#avatar {
+    position: relative;
+    height: 125px;
+    width: 125px;
+    bottom: 130px;
+    
 }
 
 .h1 {
@@ -73,15 +74,12 @@
 }
 
 .boxB2 {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    font-size: 19px;
+    font-size: 15px;
     color: white;
     padding: 15px;
-    font-family: 'Overlock SC', cursive;
+    font-family: 'Martel', serif;
     column-count: 2;
-    column-width: 85px;
+    column-width: 50px;
 }
 
 #button{

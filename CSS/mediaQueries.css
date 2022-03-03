@@ -11,24 +11,23 @@
         align-self: center;
     }
     
+    #btn {
+        font-size: 30px;
+    }
+
+    .bottombuttons {
+        height: 100px;
+    }
+
     .textos {
         padding: 8px;
         margin: 20px;
         background-color: rgba(117, 38, 38, 0.76);
         color: rgb(255, 255, 255);
-        font-size: 25px;
+        font-size: 30px;
         border-radius: 8px;
     }
 
-    .avatar {
-        position: relative;
-        align-self: center;
-        height: 20vh;
-        width: 150px;
-        display: none;
-    }
-
-  
     #topbox {
         height: 10vh;
         display: flex;
@@ -40,16 +39,15 @@
     
     }
 
-
-    .avatar {
-        align-self: center;
+    #avatar {
+        position: relative;
         height: 300px;
         width: 300px;
-        display: none;
+        bottom: 200px;
     }
 
     #bottombox {
-        height: 30vh;
+        height: 40vh;
         background-size: cover;
     }
 
@@ -61,6 +59,7 @@
     }
 
     .boxB {
+        height: 250px;
         width: 500px;
         margin-left: 60px;
         margin-right: 60px;
@@ -75,11 +74,12 @@
     }
 
     .boxB2 {
-        font-size: 16px;
+        font-size: 20px;
         color: white;
-        padding: 15px;
+        padding: 10px;
         font-family: 'Martel', serif;
-        column-count: 2;
-        column-width: 10px;
+        column-count: 3;
+        column-width: 100px;
+        column-rule: solid;
     }
 }

@@ -55,14 +55,6 @@ body {
     border-radius: 8px;
 }
 
-#ron {
-    display: flex;
-    background-color: rgba(10, 4, 0, 0.123);
-    height: 75px;
-    align-self: flex-end;
-    border-radius: 50px;
-}
-
 #btn {
     height: 10vh;
     font-size: 30px;
