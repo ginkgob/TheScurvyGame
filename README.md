@@ -7,12 +7,12 @@ Se trata de un simple juego de clicks diseñado para generar un número restring
 
 El proyecto fue desarrollado con la intención de practicar el código de ruleta aleatoria.
 
-### Las lenguas utilizadas:
+#### Las lenguas utilizadas:
  - HTML
  - CSS
  - JavaScript
 
-### Herramientas utilizadas:
+#### Herramientas utilizadas:
  - Visual StudioCode
  - Trello
  - Figma
