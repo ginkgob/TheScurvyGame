@@ -28,21 +28,18 @@
         display: none;
     }
 
-    #midbox {
-        background-size: 100vw 150vh;
-    }
-
+  
     #topbox {
         height: 10vh;
         display: flex;
         justify-content: center;
     }
-
     #midbox {
-        height: 80vh;
-        display: flex;
-        justify-content: center;
+        height: 60vh;
+        background-size: 100vh;
+    
     }
+
 
     .avatar {
         align-self: center;
@@ -52,7 +49,7 @@
     }
 
     #bottombox {
-        height: 35vh;
+        height: 30vh;
         background-size: cover;
     }
 
@@ -78,11 +75,11 @@
     }
 
     .boxB2 {
-        font-size: 30px;
+        font-size: 16px;
         color: white;
         padding: 15px;
         font-family: 'Martel', serif;
-        column-count: 3;
-        column-width: 110px;
+        column-count: 2;
+        column-width: 10px;
     }
 }
