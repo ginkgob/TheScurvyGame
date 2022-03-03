@@ -94,9 +94,10 @@ body {
 .popup {
     font-size: 20px;
     text-align: center;
-    width: 100%;
-    max-width: 300px;
-    background: white;
+    width: 300px;
+    max-width: 500px;
+    background: url(../imgAndGifs/papel-viejo-envejecido-13044210-removebg-preview.png) 0 0 no-repeat;
+    background-size: 320px 250px;
     margin: 10% auto;
     padding: 20px;
     position: relative;
@@ -127,7 +128,8 @@ body {
     text-align: center;
     width: 100%;
     max-width: 300px;
-    background: white;
+    background: url(../imgAndGifs/papel-viejo-envejecido-13044210-removebg-preview.png) 0 0 no-repeat;
+    background-size: 325px 250px;
     margin: 10% auto;
     padding: 15px;
     position: relative;
