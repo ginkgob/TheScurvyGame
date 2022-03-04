@@ -83,7 +83,7 @@
     column-width: 50px;
 }
 
-#a{
+#a {
     display:flex;
     justify-content: center;
     background-color: rgb(85, 121, 173);
@@ -91,7 +91,8 @@
     color: white;
     
 }
-#button{
+
+#button {
     background-color: rgb(85, 121, 173);
     border: rgb(85, 121, 173);
     color: white;
@@ -99,7 +100,7 @@
     font-family: 'Redressed', cursive;  
 }
 
-#deadPlayers{
+#deadPlayers {
     font-size: 15px;
     height: 100%;
     color: white;
