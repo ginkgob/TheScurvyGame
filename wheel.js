@@ -36,7 +36,7 @@ function killPlayers (array1, array2) {
         document.querySelector('#deadPlayers').innerHTML = array2.join(" ");
     } else if (array1.length === 0)
         document.querySelector('.limon').onclick = function () {
-            location.href='https://www.google.es'
+            window.location=''
     }
     let imgSrc = imgs[nameSubstraction];
     avatarImg.src = imgSrc;
