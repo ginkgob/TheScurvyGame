@@ -32,22 +32,27 @@
         height: 10vh;
         display: flex;
         justify-content: center;
+        background-color: #9DDEFC;
     }
+
     #midbox {
-        height: 60vh;
-        background-size: 100vh;
-    
+        background-image:url("../imgAndGifs/fondo2largo.jpg");
+        height: 90vh;
+        background-position: center;
+        display: flex;
+        justify-content: center;
     }
+
 
     #avatar {
         position: relative;
         height: 300px;
         width: 300px;
-        bottom: 200px;
+        bottom: 250px;
     }
 
     #bottombox {
-        height: 40vh;
+        height: 47vh;
         background-size: cover;
     }
 
@@ -74,12 +79,24 @@
     }
 
     .boxB2 {
-        font-size: 20px;
+        font-size: 22px;
+        height: 100%;
         color: white;
-        padding: 10px;
+        padding: 5px;
         font-family: 'Martel', serif;
         column-count: 3;
-        column-width: 100px;
-        column-rule: solid;
+        column-width: 20px;
+    
+    }
+
+    #deadPlayers{
+        font-size: 22px;
+        height: 100%;
+        color: white;
+        padding: 15px;
+        column-count: 3;
+        column-width: 20px;
+        font-family: 'Martel', serif;
+    
     }
 }
