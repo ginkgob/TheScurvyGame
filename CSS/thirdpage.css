@@ -1,6 +1,7 @@
 body {
     background-image: url(../imgAndGifs/barcomuerto.gif);
     background-position: center;
+    background-size: cover;
 }
 
 .theEnd {
