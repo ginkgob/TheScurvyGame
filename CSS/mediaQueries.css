@@ -79,12 +79,24 @@
     }
 
     .boxB2 {
-        font-size: 20px;
+        font-size: 22px;
+        height: 100%;
         color: white;
-        padding: 10px;
+        padding: 5px;
         font-family: 'Martel', serif;
         column-count: 3;
-        column-width: 100px;
-        column-rule: solid;
+        column-width: 20px;
+    
+    }
+
+    #deadPlayers{
+        font-size: 22px;
+        height: 100%;
+        color: white;
+        padding: 15px;
+        column-count: 3;
+        column-width: 20px;
+        font-family: 'Martel', serif;
+    
     }
 }
