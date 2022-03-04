@@ -32,12 +32,17 @@
         height: 10vh;
         display: flex;
         justify-content: center;
+        background-color: #9DDEFC;
     }
+
     #midbox {
-        height: 60vh;
-        background-size: 100vh;
-    
+        background-image:url("../imgAndGifs/fondo2largo.jpg");
+        height: 90vh;
+        background-position: center;
+        display: flex;
+        justify-content: center;
     }
+
 
     #avatar {
         position: relative;
@@ -47,7 +52,7 @@
     }
 
     #bottombox {
-        height: 40vh;
+        height: 47vh;
         background-size: cover;
     }
 
