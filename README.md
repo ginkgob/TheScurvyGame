@@ -7,7 +7,7 @@ Se trata de un simple juego de clicks diseñado para generar un número restring
  </p>
 El proyecto fue desarrollado con la intención de practicar el código de ruleta aleatoria.
 
-### Las lenguas utilizadas:
+### Las lenguages utilizadas:
  - HTML
  - CSS
  - JavaScript
